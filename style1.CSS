@@ -1,0 +1,30 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .logo {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4a90e2; /* Choose your preferred color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .tiger {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 51, 32); /* Placeholder color for the tiger shape */
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .text {
+    display: inline-block;
+  }
+  

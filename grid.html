@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .Parent>div {
+            background-color:aqua;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color:black;
+        }
+        .Parent {
+            background-color:rgb(56, 144, 166);
+            display: grid;
+            grid-template-areas:
+            'Header Header Header Header Header Header'
+            'Menu Main Main Main Right Right'
+            'Menu Footer Footer Footer Right Right'
+        }
+        .Child-1 {
+            grid-area: Header;
+        }
+        .Child-2 {
+            grid-area: Menu;
+        }
+        .Child-3 {
+            grid-area: Main;
+        }
+        .Child-4 {
+            grid-area: Right;
+        }
+        .Child-5 {
+            grid-area: Footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="Parent">
+        <div class="Child-1">Header</div>
+        <div class="Child-2">Menu</div>
+        <div class="Child-3">Main</div>
+        <div class="Child-4">Right</div>
+        <div class="Child-5">Footer</div>
+    </div>
+</body>
+</html>

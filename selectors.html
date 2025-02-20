@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inline Selectors</title>
+    <style>
+        #umer {
+            background-color: aliceblue;
+            color: blue;
+            font-size: 30px;
+        }
+
+        p {
+            background-color: aqua;
+            color: beige;
+            font-size: 30px;
+        }
+
+        .rightname {
+            color: yellow;
+            font-size: 30px;
+        }
+
+        strong > b {
+            color: green;
+            font-size: 30px;
+        }
+
+        i em strike {
+            background-color: rgb(214, 226, 43);
+            color: tomato;
+            font-size: 30px;
+        }
+
+        h1[um] {
+            text-align: center;
+            background-color: teal;
+        }
+        h1,h2,h3 {
+            text-align: center;
+            color: rgb(39, 78, 78);
+        }
+        * {
+            background-color: violet;
+            text-align: end;
+        }
+        h3 {
+            font-size: 30px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> <u>ID</u>  </h1>
+    <h4 id="umer">lorem</h4>
+
+    <h2> <u>Element</u> </h2>
+    <p>This</p>
+
+    <h3> <u>Class</u> </h3>
+    <pre class="rightname"> umer </pre>
+
+    <h1> <u>Child</u> </h1>
+    <strong><b style="background-color: blueviolet;">lorem</b></strong>
+
+    <h1> <u>Descendant</u> </h1>
+    <i><em><strike style="background-color: rgba(15, 96, 150, 0.63);">Selectors</strike></em></i>
+
+</body>
+</html>

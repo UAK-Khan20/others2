@@ -1,0 +1,21 @@
+p {
+    color: rgb(57, 143, 31); 
+    margin: 10px 30px 40px 80px;
+    border: 15px saddlebrown solid;  
+    padding: 75px;
+}
+
+ul{
+    color: rgb(17, 66, 50);
+    border: 5px dotted navy;
+    background-color: aliceblue;
+    backdrop-filter: blur(1px);
+    opacity: 0.9;
+    margin: auto;
+    width: 50%;
+}
+li {
+    display: inline;
+    padding: 10px;
+    
+}
